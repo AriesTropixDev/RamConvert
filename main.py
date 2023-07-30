@@ -27,8 +27,8 @@ def Downloader():
 root.geometry('500x300')
 root.resizable(0,0)
 root.config(padx=30,pady=30)
-root.title("youtube video downloader")
-Label(root,text = 'Youtube Video Downloader', font ='arial 20 bold').grid(row=0,column=2)
+root.title("RamConvert")
+Label(root,text = 'RamConvert', font ='arial 20 bold').grid(row=0,column=2)
 link = StringVar()
 
 Label(root, text = 'Paste Link Here:', font = 'arial 15 bold').grid(row=1,column=2)
